@@ -21,7 +21,10 @@ namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogo
             {
                 try
                 {
-                    jogada = new Jogada(jogador, GetTipoJogada(tipoJogada));
+                    var result = GetTipoJogada(tipoJogada);
+                    result.Executar();
+
+                    jogada = new Jogada(jogador, result);
                 }
                 catch (ApplicationException ex)
                 {

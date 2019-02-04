@@ -8,7 +8,7 @@ namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogo
         
         public override void Executar()
         {
-            Console.WriteLine($"Executanto: {this.TipoJogada.ToString()}");
+            Console.WriteLine($"Comando Executado: {this.TipoJogada.ToString()}");
         }
     }
 }

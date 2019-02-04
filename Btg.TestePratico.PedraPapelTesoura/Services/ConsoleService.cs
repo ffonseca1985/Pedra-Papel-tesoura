@@ -62,6 +62,8 @@ namespace Btg.TestePratico.PedraPapelTesoura.Services
 
                         if (partida.VerificarGanhador())
                             partida.TerminarComVencedor();
+
+                        Console.WriteLine("\n");
                     }
                     else
                     {
