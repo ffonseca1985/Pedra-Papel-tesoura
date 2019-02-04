@@ -61,9 +61,7 @@ namespace Btg.TestePratico.PedraPapelTesoura.Services
                             partida.AdicionarEmpate();
 
                         if (partida.VerificarGanhador())
-                        {
                             partida.TerminarComVencedor();
-                        }
                     }
                     else
                     {
@@ -71,11 +69,6 @@ namespace Btg.TestePratico.PedraPapelTesoura.Services
                     }
                 });
             }
-        }
-
-        public void AdicionarEmpate()
-        {
-
         }
         public void AdicionarPartida(Partida partida)
         {
