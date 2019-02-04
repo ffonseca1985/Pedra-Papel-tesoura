@@ -3,8 +3,8 @@ using Btg.TestePratico.PedraPapelTesoura.DomainModel.Extensions;
 
 namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogo
 {
-    using Btg.TestePratico.PedraPapelTesoura.Messages.Bus;
     using Btg.TestePratico.PedraPapelTesoura.Messages.Events;
+    using Btg.TestePratico.PedraPapelTesoura.Messages.MessageBus;
     using System;
     using System.Collections;
     using System.Linq;

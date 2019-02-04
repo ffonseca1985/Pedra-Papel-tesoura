@@ -1,5 +1,5 @@
-﻿using Btg.TestePratico.PedraPapelTesoura.Messages.Bus;
-using Btg.TestePratico.PedraPapelTesoura.Messages.Commands;
+﻿using Btg.TestePratico.PedraPapelTesoura.Messages.Commands;
+using Btg.TestePratico.PedraPapelTesoura.Messages.MessageBus;
 using System;
 
 namespace Btg.TestePratico.PedraPapelTesoura

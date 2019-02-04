@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Btg.TestePratico.PedraPapelTesoura.Messages.Bus
+namespace Btg.TestePratico.PedraPapelTesoura.Messages.MessageBus
 {
     public  class BusInMemory
     {
