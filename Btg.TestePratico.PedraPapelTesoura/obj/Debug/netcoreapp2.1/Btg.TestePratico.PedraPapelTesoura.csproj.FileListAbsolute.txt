@@ -1,0 +1,10 @@
+C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.csproj.CoreCompileInputs.cache
+C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.AssemblyInfoInputs.cache
+C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.AssemblyInfo.cs
+C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\bin\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.deps.json
+C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\bin\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.runtimeconfig.json
+C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\bin\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.runtimeconfig.dev.json
+C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\bin\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.dll
+C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\bin\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.pdb
+C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.dll
+C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.pdb
