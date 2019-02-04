@@ -2,7 +2,7 @@
 using Btg.TestePratico.PedraPapelTesoura.Commands;
 using System;
 
-namespace Btg.TestePratico.PedraPapelTesoura.Services
+namespace Btg.TestePratico.PedraPapelTesoura
 {
     public class Gateway
     {

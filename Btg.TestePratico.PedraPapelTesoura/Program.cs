@@ -1,6 +1,4 @@
 ﻿using Btg.TestePratico.PedraPapelTesoura.Bus;
-using Btg.TestePratico.PedraPapelTesoura.Commands;
-using Btg.TestePratico.PedraPapelTesoura.Services;
 using System;
 
 namespace Btg.TestePratico.PedraPapelTesoura

@@ -9,7 +9,7 @@ namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Extensions
             if (jogada1 == null)
                 return jogada2;
 
-            if (jogada1.TipoJogada.TipoJogada == ETipoJogada.Papel && jogada1.TipoJogada.TipoJogada == ETipoJogada.Pedra)
+            if (jogada1.TipoJogada.TipoJogada == ETipoJogada.Papel && jogada2.TipoJogada.TipoJogada == ETipoJogada.Pedra)
                 return jogada1;
 
             if (jogada1.TipoJogada.TipoJogada == ETipoJogada.Papel && jogada2.TipoJogada.TipoJogada == ETipoJogada.Tesoura)
@@ -17,6 +17,15 @@ namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Extensions
 
             if (jogada1.TipoJogada.TipoJogada == ETipoJogada.Pedra && jogada2.TipoJogada.TipoJogada == ETipoJogada.Tesoura)
                 return jogada1;
+
+            if (jogada1.TipoJogada.TipoJogada == ETipoJogada.Pedra && jogada2.TipoJogada.TipoJogada == ETipoJogada.Tesoura)
+                return jogada1;
+
+            if (jogada1.TipoJogada.TipoJogada == ETipoJogada.Pedra && jogada2.TipoJogada.TipoJogada == ETipoJogada.Tesoura)
+                return jogada1;
+
+            if (jogada1.TipoJogada.TipoJogada == ETipoJogada.Pedra && jogada2.TipoJogada.TipoJogada == ETipoJogada.Papel)
+                return jogada2;
 
             return jogada1;
         } 
