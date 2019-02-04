@@ -1,13 +1,13 @@
-﻿using Btg.TestePratico.PedraPapelTesoura.Commands;
-using Btg.TestePratico.PedraPapelTesoura.Events;
-using Btg.TestePratico.PedraPapelTesoura.Handlers;
-using Btg.TestePratico.PedraPapelTesoura.Handlers.Commands;
-using Btg.TestePratico.PedraPapelTesoura.Handlers.Events;
+﻿using Btg.TestePratico.PedraPapelTesoura.Messages.Commands;
+using Btg.TestePratico.PedraPapelTesoura.Messages.Events;
+using Btg.TestePratico.PedraPapelTesoura.Messages.Handlers;
+using Btg.TestePratico.PedraPapelTesoura.Messages.Handlers.Commands;
+using Btg.TestePratico.PedraPapelTesoura.Messages.Handlers.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Btg.TestePratico.PedraPapelTesoura.Bus
+namespace Btg.TestePratico.PedraPapelTesoura.Messages.Bus
 {
     public  class BusInMemory
     {

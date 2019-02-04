@@ -1,12 +1,11 @@
-﻿using Btg.TestePratico.PedraPapelTesoura.Bus;
-using Btg.TestePratico.PedraPapelTesoura.Commands;
+﻿using Btg.TestePratico.PedraPapelTesoura.Messages.Bus;
+using Btg.TestePratico.PedraPapelTesoura.Messages.Commands;
 using System;
 
 namespace Btg.TestePratico.PedraPapelTesoura
 {
     public class Gateway
     {
-
         public void Recomecar()
         {
             Console.Clear();

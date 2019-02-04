@@ -1,4 +1,4 @@
-﻿using Btg.TestePratico.PedraPapelTesoura.Bus;
+﻿using Btg.TestePratico.PedraPapelTesoura.Messages.Bus;
 using System;
 
 namespace Btg.TestePratico.PedraPapelTesoura

@@ -2,9 +2,7 @@
 
 namespace Btg.TestePratico.PedraPapelTesoura.Services
 {
-    using Btg.TestePratico.PedraPapelTesoura.Bus;
     using Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogador;
-    using Btg.TestePratico.PedraPapelTesoura.Events;
     using Btg.TestePratico.PedraPapelTesoura.Repositories;
     using DomainModel.Jogo;
 

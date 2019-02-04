@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Btg.TestePratico.PedraPapelTesoura.Commands
+namespace Btg.TestePratico.PedraPapelTesoura.Messages.Commands
 {
     public class ComecarPartidaCommand : ICommand {
 

@@ -1,7 +1,7 @@
-﻿using Btg.TestePratico.PedraPapelTesoura.Commands;
+﻿using Btg.TestePratico.PedraPapelTesoura.Messages.Commands;
 using Btg.TestePratico.PedraPapelTesoura.Services;
 
-namespace Btg.TestePratico.PedraPapelTesoura.Handlers.Commands
+namespace Btg.TestePratico.PedraPapelTesoura.Messages.Handlers.Commands
 {
     public class AdicionarJogadoresCommandHandler : ICommandHandler<AdicionarJogadoresCommand>, HandlerBase
     {

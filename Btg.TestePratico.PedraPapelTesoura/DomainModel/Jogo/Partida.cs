@@ -3,11 +3,11 @@ using Btg.TestePratico.PedraPapelTesoura.DomainModel.Extensions;
 
 namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogo
 {
+    using Btg.TestePratico.PedraPapelTesoura.Messages.Bus;
+    using Btg.TestePratico.PedraPapelTesoura.Messages.Events;
     using System;
     using System.Collections;
     using System.Linq;
-    using Btg.TestePratico.PedraPapelTesoura.Bus;
-    using Btg.TestePratico.PedraPapelTesoura.Events;
 
     public class Partida : IEntity<Guid>, ICollection<Jogada>
     {

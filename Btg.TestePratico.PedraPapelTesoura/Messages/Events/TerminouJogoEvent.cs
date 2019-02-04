@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Btg.TestePratico.PedraPapelTesoura.Events
+namespace Btg.TestePratico.PedraPapelTesoura.Messages.Events
 {
     public class TerminouJogoEvent : IEvent
     {

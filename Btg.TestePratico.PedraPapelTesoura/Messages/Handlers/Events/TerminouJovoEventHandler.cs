@@ -1,12 +1,7 @@
-﻿using Btg.TestePratico.PedraPapelTesoura.Bus;
-using Btg.TestePratico.PedraPapelTesoura.Commands;
-using Btg.TestePratico.PedraPapelTesoura.Events;
-using Btg.TestePratico.PedraPapelTesoura.Services;
+﻿using Btg.TestePratico.PedraPapelTesoura.Messages.Events;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Btg.TestePratico.PedraPapelTesoura.Handlers.Events
+namespace Btg.TestePratico.PedraPapelTesoura.Messages.Handlers.Events
 {
     public class TerminouJovoEventHandler : IEventHandler<TerminouJogoEvent>
         , HandlerBase

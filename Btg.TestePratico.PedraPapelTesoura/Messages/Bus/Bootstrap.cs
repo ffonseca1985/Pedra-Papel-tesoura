@@ -1,7 +1,7 @@
-﻿using Btg.TestePratico.PedraPapelTesoura.Handlers.Commands;
-using Btg.TestePratico.PedraPapelTesoura.Handlers.Events;
+﻿using Btg.TestePratico.PedraPapelTesoura.Messages.Handlers.Commands;
+using Btg.TestePratico.PedraPapelTesoura.Messages.Handlers.Events;
 
-namespace Btg.TestePratico.PedraPapelTesoura.Bus
+namespace Btg.TestePratico.PedraPapelTesoura.Messages.Bus
 {
     public class Bootstrap
     {
