@@ -12,13 +12,11 @@ namespace Btg.TestePratico.PedraPapelTesoura.Services
     {
         public PartidaRepository _partidaRepository;
         public JogadorRepository _jogadorRepository;
-        public BusInMemory _busInMemory;
-
+        
         public ConsoleService()
         {
             _jogadorRepository = new JogadorRepository();
             _partidaRepository = new PartidaRepository();
-            _busInMemory = new BusInMemory();
         }
 
         public void AdicionarJogador()
@@ -60,21 +58,25 @@ namespace Btg.TestePratico.PedraPapelTesoura.Services
                         partida.Add(jogada);
 
                         if (partida.VerificarEmpate())
-                        {
-                            Console.WriteLine("Deu empate, favor inserir novos dados!!");
-                            partida.Clear();
-                        }
+                            partida.AdicionarEmpate();
 
                         if (partida.VerificarGanhador())
                         {
                             partida.TerminarComVencedor();
-                            _busInMemory.SendEvents(new TerminouJogoEvent() { Data = DateTime.Now });
                         }
+                    }
+                    else
+                    {
+                        partida.Terminar();
                     }
                 });
             }
         }
 
+        public void AdicionarEmpate()
+        {
+
+        }
         public void AdicionarPartida(Partida partida)
         {
             if (partida == null)

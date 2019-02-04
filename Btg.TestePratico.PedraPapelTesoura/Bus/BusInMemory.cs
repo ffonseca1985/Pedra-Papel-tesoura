@@ -33,7 +33,7 @@ namespace Btg.TestePratico.PedraPapelTesoura.Bus
             _handlers.Add(type, messageType);
         }
 
-        public void SendCommands<T>(T command) where T : ICommand
+        public static void SendCommands<T>(T command) where T : ICommand
         {
             var type = command.GetType();
 
@@ -49,7 +49,7 @@ namespace Btg.TestePratico.PedraPapelTesoura.Bus
             }
         }
 
-        public void SendEvents<T>(T @event) where T : IEvent
+        public static void SendEvents<T>(T @event) where T : IEvent
         {
             var type = @event.GetType();
 

@@ -1,9 +1,14 @@
 ﻿namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogo
 {
-    public interface ITipoJogada
+    public abstract class ITipoJogada
     {           
-        ETipoJogada TipoJogada{ get; }
-        void Executar();
+        public abstract ETipoJogada TipoJogada{ get;}
+        public abstract void Executar();
+
+        public override string ToString()
+        {
+            return this.TipoJogada.ToString();
+        }
     }
 
     public enum ETipoJogada

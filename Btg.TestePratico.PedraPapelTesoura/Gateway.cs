@@ -6,11 +6,6 @@ namespace Btg.TestePratico.PedraPapelTesoura
 {
     public class Gateway
     {
-        private readonly BusInMemory _busInMemory; 
-        public Gateway()
-        {
-            _busInMemory = new BusInMemory();
-        }
 
         public void Recomecar()
         {
@@ -26,16 +21,16 @@ namespace Btg.TestePratico.PedraPapelTesoura
                 Data = DateTime.Now
             };
 
-            _busInMemory.SendCommands(comecarPartidaCommand);
+            BusInMemory.SendCommands(comecarPartidaCommand);
 
             Console.WriteLine("############### JOGADORES ################");
-            _busInMemory.SendCommands(new AdicionarJogadoresCommand());
+            BusInMemory.SendCommands(new AdicionarJogadoresCommand());
 
             Console.WriteLine("###############################");
             Console.WriteLine("###############################");
             Console.WriteLine("###############################");
 
-            _busInMemory.SendCommands(new AdicionarJogadasCommand() { IdPartida = comecarPartidaCommand.IdPartida });
+            BusInMemory.SendCommands(new AdicionarJogadasCommand() { IdPartida = comecarPartidaCommand.IdPartida });
             Console.WriteLine("###############################");
         }
     }

@@ -19,11 +19,21 @@ namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogo
 
             if (Enum.TryParse<ETipoJogada>(text, out tipoJogada))
             {
-                jogada = new Jogada(jogador, GetTipoJogada(tipoJogada));
+                try
+                {
+                    jogada = new Jogada(jogador, GetTipoJogada(tipoJogada));
+                }
+                catch (ApplicationException ex)
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine(ex.Message);
+                    return false;
+                }
                 return true;
             }
             return false;
         }
+        
 
         public static ITipoJogada GetTipoJogada(ETipoJogada tipoJogada)
         {

@@ -6,7 +6,8 @@ namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogo
     using System;
     using System.Collections;
     using System.Linq;
-    using Jogador;
+    using Btg.TestePratico.PedraPapelTesoura.Bus;
+    using Btg.TestePratico.PedraPapelTesoura.Events;
 
     public class Partida : IEntity<Guid>, ICollection<Jogada>
     {
@@ -14,7 +15,10 @@ namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogo
         {
             this.Id = id;
             this.Jogadas = new List<Jogada>();
+            _busInMemory = new BusInMemory();
         }
+
+        private BusInMemory _busInMemory;
         public List<Jogada> Jogadas { get; set; }
         public int Count => this.Jogadas.Count();
         public bool IsReadOnly => true;
@@ -33,6 +37,7 @@ namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogo
         public void Terminar()
         {
             this.Status = false;
+            BusInMemory.SendEvents(new TerminouJogoEvent() { Data = DateTime.Now });
         }
         public void TerminarComVencedor()
         {
@@ -41,6 +46,8 @@ namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogo
             var vencedor = this.ObterVencedor();
             this.Clear();
             Console.WriteLine($"O vencedor foi: {vencedor.Jogador.Nome} ");
+
+            BusInMemory.SendEvents(new TerminouJogoEvent() { Data = DateTime.Now });
         }
 
         public bool IsOn() => this.Status;
@@ -58,15 +65,24 @@ namespace Btg.TestePratico.PedraPapelTesoura.DomainModel.Jogo
 
         public bool VerificarEmpate()
         {
+            if (!this.VerificarGanhador())
+                return false;
+
             foreach (var jogadaA in Jogadas)
             {
                 foreach (Jogada jogadaB in Jogadas)
                 {
-                    if (!jogadaA.TipoJogada.Equals(jogadaB))
+                    if (jogadaA.TipoJogada.ToString() != jogadaB.TipoJogada.ToString())
                         return false;
                 }
             }
             return true;
+        }
+
+        public void AdicionarEmpate()
+        {
+            Console.WriteLine("Deu empate!!");
+            this.Terminar();
         }
 
         public bool VerificarGanhador()
