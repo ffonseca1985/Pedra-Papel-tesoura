@@ -13,8 +13,8 @@ namespace Btg.TestePratico.PedraPapelTesoura.Messages.Handlers.Commands
         }
 
         /// <summary>
-        /// Como é uma aplicação console não há a necessidade de usar o command
-        /// Para aplicações Web os valor viram do client
+        /// Como é uma aplicação console não há a necessidade de usar o command.
+        /// Para aplicações Web os valor virao do client
         /// </summary>
         /// <param name="command"></param>
         public void Execute(AdicionarJogadoresCommand command)
