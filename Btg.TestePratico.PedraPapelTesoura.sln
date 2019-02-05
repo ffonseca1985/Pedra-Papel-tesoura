@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Btg.TestePratico.PedraPapelTesoura", "Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura.csproj", "{42319A2C-9567-4637-86A8-82D90650CE25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Btg.TestePratico.PedraPapelTesoura", "Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura.csproj", "{42319A2C-9567-4637-86A8-82D90650CE25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{819B36F4-0E98-43E8-9404-D0C713D92E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BA1DECBD-CE2A-4EFC-8433-D8FEF14F7F32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Btg.TestePratico.PedraPapelTesoura.test", "Btg.TestePratico.PedraPapelTesoura.test\Btg.TestePratico.PedraPapelTesoura.test.csproj", "{3C445963-487D-4CD6-9AC1-8AB1584ED2EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{42319A2C-9567-4637-86A8-82D90650CE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42319A2C-9567-4637-86A8-82D90650CE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42319A2C-9567-4637-86A8-82D90650CE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C445963-487D-4CD6-9AC1-8AB1584ED2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C445963-487D-4CD6-9AC1-8AB1584ED2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C445963-487D-4CD6-9AC1-8AB1584ED2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C445963-487D-4CD6-9AC1-8AB1584ED2EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{42319A2C-9567-4637-86A8-82D90650CE25} = {819B36F4-0E98-43E8-9404-D0C713D92E53}
+		{3C445963-487D-4CD6-9AC1-8AB1584ED2EE} = {BA1DECBD-CE2A-4EFC-8433-D8FEF14F7F32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {789A3E49-400E-4DEE-A542-BE7FAC2E9608}
