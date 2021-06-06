@@ -26,7 +26,7 @@ namespace Btg.TestePratico.PedraPapelTesoura.Services
 
             while (string.IsNullOrWhiteSpace(nomeJogador))
             {
-                System.Console.WriteLine("Favor informar um nome para o Jogador: ");
+                System.Console.WriteLine($"Favor informar um nome para o Jogador {_jogadorRepository.Get().Count + 1}: ");
                 nomeJogador = System.Console.ReadLine();
             }
 

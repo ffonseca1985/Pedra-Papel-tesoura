@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fabio.rodrigues\\.nuget\\packages\\": {},
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabio.rodrigues\\Desktop\\Jogo  - Peda, Papel e Tesoura\\Btg.TestePratico.PedraPapelTesoura\\Btg.TestePratico.PedraPapelTesoura\\Btg.TestePratico.PedraPapelTesoura.csproj",
+      "projectUniqueName": "C:\\private\\Pedra-Papel-tesoura\\Btg.TestePratico.PedraPapelTesoura\\Btg.TestePratico.PedraPapelTesoura.csproj",
       "projectName": "Btg.TestePratico.PedraPapelTesoura",
-      "projectPath": "C:\\Users\\fabio.rodrigues\\Desktop\\Jogo  - Peda, Papel e Tesoura\\Btg.TestePratico.PedraPapelTesoura\\Btg.TestePratico.PedraPapelTesoura\\Btg.TestePratico.PedraPapelTesoura.csproj",
-      "packagesPath": "C:\\Users\\fabio.rodrigues\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fabio.rodrigues\\Desktop\\Jogo  - Peda, Papel e Tesoura\\Btg.TestePratico.PedraPapelTesoura\\Btg.TestePratico.PedraPapelTesoura\\obj\\",
+      "projectPath": "C:\\private\\Pedra-Papel-tesoura\\Btg.TestePratico.PedraPapelTesoura\\Btg.TestePratico.PedraPapelTesoura.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\private\\Pedra-Papel-tesoura\\Btg.TestePratico.PedraPapelTesoura\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\fabio.rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -712,7 +712,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://10.221.2.98:666/nuget/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

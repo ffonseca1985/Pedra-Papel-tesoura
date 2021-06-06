@@ -8,3 +8,14 @@ C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.
 C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\bin\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.pdb
 C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.dll
 C:\Users\fabio.rodrigues\Desktop\Jogo  - Peda, Papel e Tesoura\Btg.TestePratico.PedraPapelTesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.pdb
+C:\private\Pedra-Papel-tesoura\Btg.TestePratico.PedraPapelTesoura\bin\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.deps.json
+C:\private\Pedra-Papel-tesoura\Btg.TestePratico.PedraPapelTesoura\bin\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.runtimeconfig.json
+C:\private\Pedra-Papel-tesoura\Btg.TestePratico.PedraPapelTesoura\bin\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.runtimeconfig.dev.json
+C:\private\Pedra-Papel-tesoura\Btg.TestePratico.PedraPapelTesoura\bin\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.dll
+C:\private\Pedra-Papel-tesoura\Btg.TestePratico.PedraPapelTesoura\bin\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.pdb
+C:\private\Pedra-Papel-tesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.csprojAssemblyReference.cache
+C:\private\Pedra-Papel-tesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.csproj.CoreCompileInputs.cache
+C:\private\Pedra-Papel-tesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.AssemblyInfoInputs.cache
+C:\private\Pedra-Papel-tesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.AssemblyInfo.cs
+C:\private\Pedra-Papel-tesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.dll
+C:\private\Pedra-Papel-tesoura\Btg.TestePratico.PedraPapelTesoura\obj\Debug\netcoreapp2.1\Btg.TestePratico.PedraPapelTesoura.pdb
